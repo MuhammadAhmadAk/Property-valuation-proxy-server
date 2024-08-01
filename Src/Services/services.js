@@ -13,6 +13,7 @@ exports.fetchProvinces = async (input, sessiontoken) => {
     return {
       ...prediction,
       description: parts.join(", "),
+      
     };
   });
 };
